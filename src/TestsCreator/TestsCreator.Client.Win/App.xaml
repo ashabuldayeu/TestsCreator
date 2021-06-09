@@ -2,6 +2,10 @@
     x:Class="TestsCreator.Client.Win.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:TestsCreator.Client.Win">
+    xmlns:local="using:TestsCreator.Client.Win"
+    xmlns:vm="using:TestsCreator.Client.Win">
+    <Application.Resources>
+        <vm:Bootstraper x:Key="Locator" />
+    </Application.Resources>
 
 </Application>
